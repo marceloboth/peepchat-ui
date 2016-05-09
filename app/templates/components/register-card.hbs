@@ -1,6 +1,7 @@
 {{#x-card
   onsubmit=attrs.onsubmit
   title='Register with Peepchat'
+<<<<<<< HEAD
   buttonText='Register'
   buttonDisabled=validations.messages.length}}
 
@@ -8,22 +9,33 @@
     {{x-input
     value=model.email
     errors=(v-get model 'email' 'messages')
+=======
+  buttonText='Register'}}
+  <div class="row">
+    {{x-input
+>>>>>>> 33404a953808ed5d7210b1b50a059eabdedf7fb1
     classNames='col s12'
     type='email'
     label='Username'}}
   </div>
   <div class="row">
     {{x-input
+<<<<<<< HEAD
     value=model.password
     errors=(v-get model 'password' 'messages')
+=======
+>>>>>>> 33404a953808ed5d7210b1b50a059eabdedf7fb1
     classNames='col s12'
     type='password'
     label='Password'}}
   </div>
   <div class="row">
     {{x-input
+<<<<<<< HEAD
     value=model.passwordConfirmation
     errors=(v-get model 'passwordConfirmation' 'messages')
+=======
+>>>>>>> 33404a953808ed5d7210b1b50a059eabdedf7fb1
     classNames='col s12'
     type='password'
     label='Confirm Password'}}
